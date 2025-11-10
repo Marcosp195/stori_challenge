@@ -1,39 +1,73 @@
-Challenge Overview
+# Contigo Credit Products Case Study
 
-This case study has two parts:
+This project analyzes the financial performance of two credit products (Contigo A and Contigo B) and evaluates the impact of a targeted collections call campaign on delinquent customers. The goal is to assess profitability and recommend a sustainable growth and collections strategy.
 
-Part 1 - Business Analysis:
-Create a 12-month financial forecast for a startup with two credit products (Contigo A & Contigo B). The model projects customer growth, revenue, delinquency losses, and costs to assess overall profitability.
+This project demonstrates the ability to:
+* Build a 12-month financial forecast model.
+* Analyze loan performance and delinquency-driven losses.
+* Evaluate operational initiatives using data-driven KPIs.
 
-Part 2 - Collections Strategy:
-Analyze the impact of a phone call campaign to recover debt from delinquent Contigo A customers. Estimate key KPIs, compare results with and without the campaign, and suggest improvements.
+---
 
-How to Run
+## The Challenge
 
-Requirements:
+The case study is divided into two core components:
 
-Python 3.8 or higher
+Objectives:
+1. Create a forward-looking financial model projecting customer growth, revenue, losses, and profitability for two credit products.
+2. Analyze the impact of a debt collections phone campaign for Contigo A customers.
+3. Recommend strategic actions to support sustainable profitability.
 
-Jupyter Notebook (Jupyter Lab or VS Code with Python/Jupyter extension)
+---
 
-Dependencies: pandas, matplotlib, pandasql
-Install with:
+## My Solution & Key Files
+
+### 1. Technical Analysis Notebook: `ba_hiring_project.ipynb`
+* Built a 12-month financial forecast for Contigo A & Contigo B.
+* Modeled customer growth, revenue, delinquency losses, and cost structure.
+* Analyzed performance with and without the collections campaign.
+* Calculated recovery rates, unit economics, and ROI of the phone campaign.
+* Provided data-driven recommendations to shift from aggressive growth to sustainable profitability.
+
+### 2. Data / Input File
+* `BA Hiring - Collections Challenge.csv`
+
+This dataset includes customer-level information needed to model receivables performance and collections outcomes.
+
+---
+
+## Core Tools Used
+
+* Python 3
+* Pandas
+* Matplotlib
+* Pandasql (for SQL-style analysis in Python)
+
+---
+
+## How to Run
+
+### Requirements
+* Python 3.8 or higher  
+* Jupyter Notebook (Jupyter Lab or VS Code with notebook support)
+
+### Install Dependencies
 pip install pandas matplotlib pandasql
 
-Run the Notebook:
 
-Clone or download this repository.
+### Execute
+1. Ensure the dataset is in the same directory as the notebook.
+2. Open `ba_hiring_project.ipynb` in Jupyter.
+3. Run all cells in sequence — the notebook is fully self-contained.
 
-Make sure the file “BA Hiring - Collections Challenge.csv” is in the same folder as the notebook.
+---
 
-Open “ba_hiring_project.ipynb” in your Jupyter environment.
+## Summary of Key Findings
 
-Run all cells in order. The notebook is self-contained and includes all steps from data cleaning to final recommendations.
+* The current growth strategy is **not sustainable** — Contigo A’s losses increase over time.
+* The **collections phone campaign** improves recovery and turns Contigo A from a loss into a modest profit.
+* Recommended strategic shift: move from **growth at all costs** to sustainable profitability by:
+  - Continuing the collections campaign
+  - Adjusting risk/pricing for Contigo A
+  - Prioritizing growth of Contigo B
 
-Summary of Findings
-
-The current growth strategy is unsustainable; Contigo A drives rising losses.
-
-The collections campaign turns Contigo A from a loss into a modest profit.
-
-Recommended next step: shift from “growth at all costs” to sustainable profitability by running the campaign, adjusting risk and pricing, and focusing growth on Contigo B.
